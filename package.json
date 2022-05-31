@@ -1,0 +1,7 @@
+{
+  "name": "playwright-tomatchsnapshot",
+  "devDependencies": {
+    "@playwright/test": "1.22.2",
+    "playwright": "1.22.2"
+  }
+}
