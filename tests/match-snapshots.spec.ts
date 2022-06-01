@@ -26,7 +26,7 @@ test.describe("test toMatchSnapshot", () => {
     expect(
       await page.screenshot({
         fullPage: true,
-        path: `${info.snapshotDir}/${customPath.join("/")}`,
+        // path: `${info.snapshotDir}/${customPath.join("/")}`, <-- not needed! otherwise, you save the image here already as an expectation.
       })
     ).toMatchSnapshot({
       name: customPath,
